@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SoundsTest</string>
+    <string name="cow">cow</string>
+    <string name="chicken">chicken</string>
+    <string name="cat">cat</string>
+    <string name="duck">Duck</string>
+    <string name="sheep">sheep</string>
+    <string name="dog">dog</string>
+</resources>

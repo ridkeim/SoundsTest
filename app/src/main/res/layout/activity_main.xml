@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout"
+        app:columnCount="2"
+        tools:context=".MainActivity">
+
+        <ImageButton
+            android:id="@+id/buttonCow"
+            android:layout_margin="@dimen/imageButtonMargin"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/cow"
+            android:src="@drawable/cow" />
+
+        <ImageButton
+            android:id="@+id/buttonChicken"
+            android:layout_margin="@dimen/imageButtonMargin"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/chicken"
+            android:src="@drawable/chicken" />
+
+        <ImageButton
+            android:id="@+id/buttonCat"
+            android:layout_margin="@dimen/imageButtonMargin"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/cat"
+            android:src="@drawable/cat" />
+
+        <ImageButton
+            android:id="@+id/buttonDuck"
+            android:layout_margin="@dimen/imageButtonMargin"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/duck"
+            android:src="@drawable/duck" />
+
+        <ImageButton
+            android:id="@+id/buttonSheep"
+            android:layout_margin="@dimen/imageButtonMargin"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/sheep"
+            android:src="@drawable/sheep" />
+
+        <ImageButton
+            android:id="@+id/buttonDog"
+            android:layout_margin="@dimen/imageButtonMargin"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/dog"
+            android:src="@drawable/dog" />
+
+    </androidx.gridlayout.widget.GridLayout>
+</ScrollView>
+
